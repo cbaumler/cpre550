@@ -12,7 +12,7 @@ The distributed chat service consists of four component types: a registry server
 
 **Chat Room Client:** The chat clients register with the registry server and receive inputs from the user to join chat rooms and send messages to chat rooms. They also display messages received from chat rooms.
 
-
+![](https://github.com/cbaumler/cpre550/blob/master/distributed_chat_service/doc/diagram.png?raw=true)
 
 ##Requirements:
 
