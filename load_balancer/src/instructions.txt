@@ -1,0 +1,3 @@
+sudo python pydir.py LoadBalancer1.xml
+sudo python pydir.py LoadBalancer2.xml
+sudo python driveload.py config.xml

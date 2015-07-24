@@ -1,0 +1,18 @@
+<pdconfig>
+   <rpcserver ip="localhost:8011" />
+   <service name="loadbalancer-1">
+      <listen ip="0.0.0.0:10011" />
+      <group name="servers" scheduler="leastconnsdist">
+         <host name="www.google.com[1]" ip="173.194.46.65:80" />
+         <host name="www.google.com[2]" ip="173.194.46.66:80" />
+         <host name="www.google.com[3]" ip="173.194.46.67:80" />
+         <host name="www.google.com[4]" ip="173.194.46.68:80" />
+         <host name="www.google.com[5]" ip="173.194.46.69:80" />
+         <host name="www.google.com[6]" ip="173.194.46.70:80" />
+         <peer name="localhost[1]" ip="localhost:8022" />
+      </group>
+      <enable group="servers" />
+   </service>
+   <logging file="loadbalance1.log"/>
+</pdconfig>
+

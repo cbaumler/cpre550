@@ -1,0 +1,208 @@
+16/04/2014 23:51:44 marking host ('157.166.224.25', 80) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 111: Connection refused.
+])
+16/04/2014 23:51:44 retrying with ('157.166.226.25', 80)
+16/04/2014 23:51:44 marking host ('157.166.224.26', 80) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionRefusedError'>: Connection was refused by other side: 111: Connection refused.
+])
+16/04/2014 23:51:44 retrying with ('157.166.226.26', 80)
+16/04/2014 23:51:45 retrying with ('157.166.226.25', 80)
+16/04/2014 23:51:45 retrying with ('157.166.226.25', 80)
+16/04/2014 23:53:48 re-adding ('157.166.224.25', 80) automatically
+16/04/2014 23:53:48 re-adding ('157.166.224.26', 80) automatically
+17/04/2014 01:29:45 client got data, no receiver, tho
+17/04/2014 01:29:45 client got data, no receiver, tho
+17/04/2014 01:29:45 client got data, no receiver, tho
+24/04/2014 00:30:13 marking host ('173.194.46.65', 80) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+24/04/2014 00:30:16 retrying with ('173.194.46.66', 80)
+24/04/2014 00:30:16 marking host ('173.194.46.66', 80) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+24/04/2014 00:30:19 retrying with ('173.194.46.67', 80)
+24/04/2014 00:30:19 marking host ('173.194.46.67', 80) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+24/04/2014 00:30:22 retrying with ('173.194.46.68', 80)
+24/04/2014 00:30:22 marking host ('173.194.46.68', 80) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+24/04/2014 00:30:25 retrying with ('173.194.46.69', 80)
+24/04/2014 00:30:25 marking host ('173.194.46.69', 80) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+24/04/2014 00:30:28 retrying with ('173.194.46.70', 80)
+24/04/2014 00:30:28 marking host ('173.194.46.70', 80) down ([Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.TimeoutError'>: User timeout caused connection failure.
+])
+24/04/2014 00:30:31 no working servers, manager -> aggressive
+24/04/2014 00:30:34 no working servers, manager -> aggressive
+24/04/2014 00:30:37 no working servers, manager -> aggressive
+24/04/2014 20:31:05 client got data, no receiver, tho
+24/04/2014 20:31:05 client got data, no receiver, tho
+24/04/2014 20:31:06 client got data, no receiver, tho
+24/04/2014 20:37:27 client got data, no receiver, tho
+24/04/2014 20:38:17 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:27 client got data, no receiver, tho
+24/04/2014 21:31:49 client got data, no receiver, tho
+24/04/2014 21:31:51 client got data, no receiver, tho
+24/04/2014 21:32:19 client got data, no receiver, tho
+24/04/2014 21:32:19 client got data, no receiver, tho
+24/04/2014 21:32:19 client got data, no receiver, tho
+24/04/2014 21:32:19 client got data, no receiver, tho
+24/04/2014 21:32:19 client got data, no receiver, tho
+24/04/2014 21:32:19 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:00 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:33:22 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:09 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:19 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:39 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:34:40 client got data, no receiver, tho
+24/04/2014 21:35:13 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:15 client got data, no receiver, tho
+24/04/2014 21:35:28 client got data, no receiver, tho
+24/04/2014 21:35:28 client got data, no receiver, tho
+24/04/2014 21:35:28 client got data, no receiver, tho
+24/04/2014 21:35:28 client got data, no receiver, tho
+24/04/2014 21:35:28 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:29 client got data, no receiver, tho
+24/04/2014 21:35:41 client got data, no receiver, tho
+24/04/2014 21:35:42 client got data, no receiver, tho
+24/04/2014 21:35:42 client got data, no receiver, tho
+24/04/2014 21:35:42 client got data, no receiver, tho
+24/04/2014 21:35:42 client got data, no receiver, tho
+24/04/2014 21:35:42 client got data, no receiver, tho
+24/04/2014 21:35:42 client got data, no receiver, tho
+24/04/2014 21:35:42 client got data, no receiver, tho
+24/04/2014 21:35:42 client got data, no receiver, tho
+24/04/2014 21:36:13 client got data, no receiver, tho
+24/04/2014 21:36:13 client got data, no receiver, tho
+24/04/2014 21:36:13 client got data, no receiver, tho
+24/04/2014 21:36:13 client got data, no receiver, tho
+24/04/2014 21:36:13 client got data, no receiver, tho
+24/04/2014 21:36:13 client got data, no receiver, tho
+24/04/2014 21:36:13 client got data, no receiver, tho
+24/04/2014 21:36:24 client got data, no receiver, tho
+24/04/2014 21:36:24 client got data, no receiver, tho
+24/04/2014 21:36:24 client got data, no receiver, tho
+24/04/2014 21:36:24 client got data, no receiver, tho
+24/04/2014 21:36:24 client got data, no receiver, tho
+24/04/2014 21:36:48 client got data, no receiver, tho
+24/04/2014 21:36:48 client got data, no receiver, tho
