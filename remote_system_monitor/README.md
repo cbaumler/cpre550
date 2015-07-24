@@ -33,3 +33,19 @@ The NMA server shall use RPC to return requested data to the NMA client.
 **Server:** This component listens for requests from the client. When a request is received, the server retrieves the requested data and sends it back to the client. Requests and responses are handled using RPC.            
 
 **RPC:** The program “rpcgen” is used to generate the RPC code used in this system. This is accomplished by specifying an interface (nma.x) that includes a program number and a version number. The interface also defines a single function called “get_sys_info” which accepts as input a long data type that specifies the user selected menu option. The function returns a pointer to a buffer containing the response data from the server.
+
+![](https://github.com/cbaumler/cpre550/blob/master/remote_system_monitor/doc/diagram.png?raw=true)
+
+##Instructions for Use
+
+**To build the client:**  
+gcc –o cli client.c nma_clnt.c
+
+**To build the server:**  
+gcc –o svc server.c nma_svc.c
+
+**To run the server:**  
+sudo ./svc
+
+**To run the client with the remote host set to localhost:**  
+./cli localhost
