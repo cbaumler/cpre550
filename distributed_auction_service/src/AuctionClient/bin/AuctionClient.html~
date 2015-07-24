@@ -1,0 +1,9 @@
+<html>
+<body>
+<applet code = 'AuctionClient.class'
+   archive = 'AuctionClient.jar',
+   width = 500,
+   hieght = 700 />
+
+</body>
+</html>

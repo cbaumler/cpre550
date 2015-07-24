@@ -1,0 +1,72 @@
+module AuctionApp
+{
+   enum ErrorType 
+   {
+      MAX_AUCTIONS_REACHED,
+      NO_ACTIVE_AUCTION,
+      ACTION_NOT_PERMITTED,
+      INVALID_USER,
+      GENERIC_ERROR
+   };
+
+   exception AuctionFailure 
+   {
+      ErrorType error;          
+      string description;
+   };
+
+   interface Auction 
+   {
+      // Place an item up for sale
+      // Raises MAX_AUCTIONS_REACHED exception if an auction is already active 
+      void offerItem(in string userId, in string itemDesc, in unsigned long price) raises(AuctionFailure);
+
+      // If called by a seller, returns the high bidder
+      // If called by the high bidder, returns the bidder's ID
+      // If called by a bidder other than the high bidder, returns "Unknown"
+      // Raises NO_ACTIVE_AUCTION exception if no auction is active
+      string viewHighBidder(in string userId) raises(AuctionFailure); 
+
+      // Sell current item and end the auction
+      // Raises ACTION_NOT_PERMITTED exception when called by a bidder
+      // Raises ACTION_NOT_PERMITTED exception when no bids have been placed
+      // Raises NO_ACTIVE_AUCTION exception if no auction is active
+      void sellItem(in string userId) raises(AuctionFailure);
+
+      // If called by a seller, returns auction state, item description, item price, and high bidder
+      // If called by a bidder, returns auction state, item description, and item price
+      void viewAuctionStatus(in string userId, out boolean isActive, out string itemDesc, out unsigned long price, out string highBidder);
+
+      // Bid on an item
+      // Raises NO_ACTIVE_AUCTION exception if no auction is active
+      // Raises ACTION_NOT_PERMITTED exception when called by the seller
+      void bid(in string userId, in unsigned long price) raises(AuctionFailure);
+
+      // View the seller for the auction
+      // Raises NO_ACTIVE_AUCTION exception if no auction is active
+      // Raises ACTION_NOT_PERMITTED exception when not called by the Auction Manager
+      string viewSeller(in string userId) raises(AuctionFailure);
+
+   };
+
+   interface AuctionFactory
+   {
+      typedef string Auctions[10];
+   
+      // Authenticate a user
+      // Adds the user to the server database on first login
+      // Raises INVALID_USER exception if the userId is in the database, but the password doesn't match
+      void authenticate(in string userId, in string password) raises(AuctionFailure);
+
+      // Get the list of active auctions for which userId is the seller
+      // Get the list of active auctions for which userId is the buyer
+      // Raises GENERIC_ERROR if an error occurs when contacting the auction servers
+      void getActiveAuctions(in string userId, out Auctions sellerAuctions, out unsigned long numSellerAuctions, 
+                             out Auctions bidderAuctions, out unsigned long numBidderAuctions) raises(AuctionFailure);
+
+      // Returns an inactive auction server if one is available
+      // Raises MAX_AUCTIONS_REACHED if there are already 10 active auctions
+      // Raises GENERIC_ERROR if an error occurs when contacting the auction servers
+      string getInactiveAuction() raises(AuctionFailure);
+   };
+};
